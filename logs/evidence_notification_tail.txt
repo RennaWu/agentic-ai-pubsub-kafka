@@ -1,0 +1,80 @@
+[2026-01-31 01:28:26] [NotificationAgent] Sending alert for transaction_id=tx_518898 risk_score=90 reason=high_amount
+[2026-01-31 01:28:26] [NotificationAgent] Published notification_ack for transaction_id=tx_518898
+[2026-01-31 01:28:27] [NotificationAgent] Sending alert for transaction_id=tx_752101 risk_score=90 reason=high_amount
+[2026-01-31 01:28:27] [NotificationAgent] Published notification_ack for transaction_id=tx_752101
+[2026-01-31 01:28:30] [NotificationAgent] Sending alert for transaction_id=tx_930442 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:30] [NotificationAgent] Published notification_ack for transaction_id=tx_930442
+[2026-01-31 01:28:31] [NotificationAgent] Sending alert for transaction_id=tx_297749 risk_score=90 reason=high_amount
+[2026-01-31 01:28:31] [NotificationAgent] Published notification_ack for transaction_id=tx_297749
+[2026-01-31 01:28:32] [NotificationAgent] Sending alert for transaction_id=tx_396881 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:32] [NotificationAgent] Published notification_ack for transaction_id=tx_396881
+[2026-01-31 01:28:34] [NotificationAgent] Sending alert for transaction_id=tx_588153 risk_score=90 reason=high_amount
+[2026-01-31 01:28:35] [NotificationAgent] Published notification_ack for transaction_id=tx_588153
+[2026-01-31 01:28:35] [NotificationAgent] Sending alert for transaction_id=tx_901642 risk_score=90 reason=high_amount
+[2026-01-31 01:28:36] [NotificationAgent] Published notification_ack for transaction_id=tx_901642
+[2026-01-31 01:28:36] [NotificationAgent] Sending alert for transaction_id=tx_391061 risk_score=90 reason=high_amount
+[2026-01-31 01:28:37] [NotificationAgent] Published notification_ack for transaction_id=tx_391061
+[2026-01-31 01:28:38] [NotificationAgent] Sending alert for transaction_id=tx_441935 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:39] [NotificationAgent] Published notification_ack for transaction_id=tx_441935
+[2026-01-31 01:28:39] [NotificationAgent] Sending alert for transaction_id=tx_697541 risk_score=90 reason=high_amount
+[2026-01-31 01:28:40] [NotificationAgent] Published notification_ack for transaction_id=tx_697541
+[2026-01-31 01:28:43] [NotificationAgent] Sending alert for transaction_id=tx_237951 risk_score=90 reason=high_amount
+[2026-01-31 01:28:43] [NotificationAgent] Published notification_ack for transaction_id=tx_237951
+[2026-01-31 01:28:46] [NotificationAgent] Sending alert for transaction_id=tx_400493 risk_score=90 reason=high_amount
+[2026-01-31 01:28:46] [NotificationAgent] Published notification_ack for transaction_id=tx_400493
+[2026-01-31 01:28:47] [NotificationAgent] Sending alert for transaction_id=tx_491049 risk_score=90 reason=high_amount
+[2026-01-31 01:28:47] [NotificationAgent] Published notification_ack for transaction_id=tx_491049
+[2026-01-31 01:28:48] [NotificationAgent] Sending alert for transaction_id=tx_495811 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:48] [NotificationAgent] Published notification_ack for transaction_id=tx_495811
+[2026-01-31 01:28:50] [NotificationAgent] Sending alert for transaction_id=tx_650322 risk_score=90 reason=high_amount
+[2026-01-31 01:28:50] [NotificationAgent] Published notification_ack for transaction_id=tx_650322
+[2026-01-31 01:28:52] [NotificationAgent] Sending alert for transaction_id=tx_180618 risk_score=90 reason=high_amount
+[2026-01-31 01:28:52] [NotificationAgent] Published notification_ack for transaction_id=tx_180618
+[2026-01-31 01:28:53] [NotificationAgent] Sending alert for transaction_id=tx_789309 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:53] [NotificationAgent] Published notification_ack for transaction_id=tx_789309
+[2026-01-31 01:28:54] [NotificationAgent] Sending alert for transaction_id=tx_888453 risk_score=90 reason=high_amount
+[2026-01-31 01:28:54] [NotificationAgent] Published notification_ack for transaction_id=tx_888453
+[2026-01-31 01:28:55] [NotificationAgent] Sending alert for transaction_id=tx_596529 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:55] [NotificationAgent] Published notification_ack for transaction_id=tx_596529
+[2026-01-31 01:28:56] [NotificationAgent] Sending alert for transaction_id=tx_479949 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:56] [NotificationAgent] Published notification_ack for transaction_id=tx_479949
+[2026-01-31 01:28:57] [NotificationAgent] Sending alert for transaction_id=tx_223817 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:28:57] [NotificationAgent] Published notification_ack for transaction_id=tx_223817
+[2026-01-31 01:28:58] [NotificationAgent] Sending alert for transaction_id=tx_720871 risk_score=90 reason=high_amount
+[2026-01-31 01:28:58] [NotificationAgent] Published notification_ack for transaction_id=tx_720871
+[2026-01-31 01:29:01] [NotificationAgent] Sending alert for transaction_id=tx_834012 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:02] [NotificationAgent] Published notification_ack for transaction_id=tx_834012
+[2026-01-31 01:29:06] [NotificationAgent] Sending alert for transaction_id=tx_907584 risk_score=90 reason=high_amount
+[2026-01-31 01:29:06] [NotificationAgent] Published notification_ack for transaction_id=tx_907584
+[2026-01-31 01:29:07] [NotificationAgent] Sending alert for transaction_id=tx_986887 risk_score=90 reason=high_amount
+[2026-01-31 01:29:07] [NotificationAgent] Published notification_ack for transaction_id=tx_986887
+[2026-01-31 01:29:08] [NotificationAgent] Sending alert for transaction_id=tx_923670 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:08] [NotificationAgent] Published notification_ack for transaction_id=tx_923670
+[2026-01-31 01:29:09] [NotificationAgent] Sending alert for transaction_id=tx_227459 risk_score=90 reason=high_amount
+[2026-01-31 01:29:09] [NotificationAgent] Published notification_ack for transaction_id=tx_227459
+[2026-01-31 01:29:13] [NotificationAgent] Sending alert for transaction_id=tx_892910 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:13] [NotificationAgent] Published notification_ack for transaction_id=tx_892910
+[2026-01-31 01:29:14] [NotificationAgent] Sending alert for transaction_id=tx_311641 risk_score=90 reason=high_amount
+[2026-01-31 01:29:14] [NotificationAgent] Published notification_ack for transaction_id=tx_311641
+[2026-01-31 01:29:15] [NotificationAgent] Sending alert for transaction_id=tx_263807 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:15] [NotificationAgent] Published notification_ack for transaction_id=tx_263807
+[2026-01-31 01:29:16] [NotificationAgent] Sending alert for transaction_id=tx_580342 risk_score=90 reason=high_amount
+[2026-01-31 01:29:16] [NotificationAgent] Published notification_ack for transaction_id=tx_580342
+[2026-01-31 01:29:18] [NotificationAgent] Sending alert for transaction_id=tx_147303 risk_score=90 reason=high_amount
+[2026-01-31 01:29:18] [NotificationAgent] Published notification_ack for transaction_id=tx_147303
+[2026-01-31 01:29:19] [NotificationAgent] Sending alert for transaction_id=tx_750499 risk_score=90 reason=high_amount
+[2026-01-31 01:29:19] [NotificationAgent] Published notification_ack for transaction_id=tx_750499
+[2026-01-31 01:29:20] [NotificationAgent] Sending alert for transaction_id=tx_124431 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:21] [NotificationAgent] Published notification_ack for transaction_id=tx_124431
+[2026-01-31 01:29:21] [NotificationAgent] Sending alert for transaction_id=tx_619029 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:22] [NotificationAgent] Published notification_ack for transaction_id=tx_619029
+[2026-01-31 01:29:22] [NotificationAgent] Sending alert for transaction_id=tx_312711 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:23] [NotificationAgent] Published notification_ack for transaction_id=tx_312711
+[2026-01-31 01:29:24] [NotificationAgent] Sending alert for transaction_id=tx_122970 risk_score=90 reason=high_amount
+[2026-01-31 01:29:25] [NotificationAgent] Published notification_ack for transaction_id=tx_122970
+[2026-01-31 01:29:27] [NotificationAgent] Sending alert for transaction_id=tx_970925 risk_score=90 reason=high_amount
+[2026-01-31 01:29:27] [NotificationAgent] Published notification_ack for transaction_id=tx_970925
+[2026-01-31 01:29:32] [NotificationAgent] Sending alert for transaction_id=tx_883608 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:32] [NotificationAgent] Published notification_ack for transaction_id=tx_883608
+[2026-01-31 01:29:35] [NotificationAgent] Sending alert for transaction_id=tx_204344 risk_score=80 reason=suspicious_merchant
+[2026-01-31 01:29:35] [NotificationAgent] Published notification_ack for transaction_id=tx_204344

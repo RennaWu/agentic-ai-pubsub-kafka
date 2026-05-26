@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 680 560" role="img" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <title>Multi-Agent Fraud Detection Architecture</title>
+  <desc>Three Kafka agents — Transaction, Fraud, Notification — connected in a bidirectional event loop via three topics: transactions, fraud_alerts, and notification_acks.</desc>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <style>
+    .agent-box { fill: #E6F1FB; stroke: #185FA5; stroke-width: 1; }
+    .topic-pill { fill: #FAEEDA; stroke: #BA7517; stroke-width: 1; }
+    .agent-title { font-size: 16px; font-weight: 500; fill: #0C447C; }
+    .agent-sub { font-size: 12px; fill: #185FA5; }
+    .topic-text { font-size: 13px; font-weight: 500; fill: #854F0B; }
+    .flow-text { font-size: 12px; fill: #5F5E5A; }
+    .header { font-size: 18px; font-weight: 500; fill: #2C2C2A; }
+    .sub-header { font-size: 12px; fill: #5F5E5A; }
+    .arrow-stroke { stroke: #888780; stroke-width: 1.5; fill: none; }
+    .arrow-stroke-loop { stroke: #1D9E75; stroke-width: 1.5; fill: none; stroke-dasharray: 5 4; }
+  </style>
+
+  <!-- Title -->
+  <text class="header" x="340" y="38" text-anchor="middle">Multi-agent fraud detection — bidirectional Kafka flow</text>
+  <text class="sub-header" x="340" y="58" text-anchor="middle">Three agents, three topics, one event loop</text>
+
+  <!-- TransactionAgent -->
+  <rect class="agent-box" x="240" y="100" width="200" height="80" rx="8"/>
+  <text class="agent-title" x="340" y="130" text-anchor="middle">TransactionAgent</text>
+  <text class="agent-sub" x="340" y="150" text-anchor="middle">Publishes transactions</text>
+  <text class="agent-sub" x="340" y="166" text-anchor="middle">Consumes acks (non-blocking poll)</text>
+
+  <!-- transactions topic -->
+  <rect class="topic-pill" x="490" y="220" width="160" height="40" rx="20"/>
+  <text class="topic-text" x="570" y="244" text-anchor="middle">transactions</text>
+
+  <!-- FraudAgent -->
+  <rect class="agent-box" x="470" y="290" width="200" height="80" rx="8"/>
+  <text class="agent-title" x="570" y="320" text-anchor="middle">FraudAgent</text>
+  <text class="agent-sub" x="570" y="340" text-anchor="middle">Rule-based risk scoring</text>
+  <text class="agent-sub" x="570" y="356" text-anchor="middle">Alerts when risk_score ≥ 70</text>
+
+  <!-- fraud_alerts topic -->
+  <rect class="topic-pill" x="260" y="400" width="160" height="40" rx="20"/>
+  <text class="topic-text" x="340" y="424" text-anchor="middle">fraud_alerts</text>
+
+  <!-- NotificationAgent -->
+  <rect class="agent-box" x="30" y="290" width="200" height="80" rx="8"/>
+  <text class="agent-title" x="130" y="320" text-anchor="middle">NotificationAgent</text>
+  <text class="agent-sub" x="130" y="340" text-anchor="middle">Simulates email/SMS delivery</text>
+  <text class="agent-sub" x="130" y="356" text-anchor="middle">Confirms back upstream</text>
+
+  <!-- notification_acks topic -->
+  <rect class="topic-pill" x="50" y="220" width="160" height="40" rx="20"/>
+  <text class="topic-text" x="130" y="244" text-anchor="middle">notification_acks</text>
+
+  <!-- Arrows: TransactionAgent → transactions -->
+  <path class="arrow-stroke" d="M 420 180 L 510 220" marker-end="url(#arrow)"/>
+  <!-- transactions → FraudAgent -->
+  <path class="arrow-stroke" d="M 570 260 L 570 290" marker-end="url(#arrow)"/>
+  <!-- FraudAgent → fraud_alerts -->
+  <path class="arrow-stroke" d="M 510 370 L 420 400" marker-end="url(#arrow)"/>
+  <!-- fraud_alerts → NotificationAgent -->
+  <path class="arrow-stroke" d="M 260 410 L 175 370" marker-end="url(#arrow)"/>
+  <!-- NotificationAgent → notification_acks -->
+  <path class="arrow-stroke" d="M 130 290 L 130 260" marker-end="url(#arrow)"/>
+  <!-- notification_acks → TransactionAgent (closes the loop!) -->
+  <path class="arrow-stroke-loop" d="M 210 230 L 260 180" marker-end="url(#arrow)"/>
+
+  <!-- Annotation: loop-closing arrow -->
+  <text class="flow-text" x="225" y="200" fill="#0F6E56" font-weight="500">loop closes</text>
+
+  <!-- Legend -->
+  <g transform="translate(40, 480)">
+    <rect class="agent-box" x="0" y="0" width="20" height="14" rx="3"/>
+    <text class="flow-text" x="28" y="11">Agent</text>
+
+    <rect class="topic-pill" x="100" y="0" width="20" height="14" rx="7"/>
+    <text class="flow-text" x="128" y="11">Kafka topic</text>
+
+    <line x1="220" y1="7" x2="250" y2="7" class="arrow-stroke"/>
+    <text class="flow-text" x="258" y="11">publish / subscribe</text>
+
+    <line x1="400" y1="7" x2="430" y2="7" class="arrow-stroke-loop"/>
+    <text class="flow-text" x="438" y="11">feedback loop</text>
+  </g>
+
+  <!-- Tech footer -->
+  <text class="sub-header" x="340" y="540" text-anchor="middle">Apache Kafka 3.6 · KRaft mode · acks=all · transaction_id keying</text>
+</svg>

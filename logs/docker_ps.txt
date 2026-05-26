@@ -1,0 +1,3 @@
+$ docker ps
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS          PORTS                                              NAMES
+dbc13250b24c   apache/kafka:latest    "/__cacert_entrypoin…"   41 minutes ago   Up 41 minutes   0.0.0.0:9092->9092/tcp, [::]:9092->9092/tcp        kafka_broker
