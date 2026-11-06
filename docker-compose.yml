@@ -1,6 +1,6 @@
 services:
   kafka:
-    image: bitnami/kafka:3.6
+    image: soldevelo/kafka:3.6
     container_name: kafka
     ports:
       - "9092:9092"
